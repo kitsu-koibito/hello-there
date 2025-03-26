@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Keep shining bright like the star you are! ⭐",
         "I believe in you, even when you don't believe in yourself! 🤗",
         "Take a moment to appreciate how far you've come! 💓",
-        "Never give up, gorgeous! You're stronger than you think! 💪",
+        "Never give up, gorgeous! You're stronger than you think! 💪"
     ];
     
     const firstMessage = messages[0];
