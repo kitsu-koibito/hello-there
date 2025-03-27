@@ -120,7 +120,7 @@ body {
 .cute-button {
     background-color: #ff6b9e;
     color: white;
-    border: none;
+    border: 3px solid #ffcce0;
     padding: 15px 30px;
     font-size: 1.3rem;
     border-radius: 50px;
@@ -134,10 +134,38 @@ body {
 
 .cute-button:hover {
     background-color: #ff4181;
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(1.05);
     box-shadow: 0 8px 20px rgba(255, 107, 158, 0.6);
 }
 
 .cute-button:active {
+    transform: translateY(0);
+}
+
+.date-button {
+    display: block;
+    background-color: #ff6b9e;
+    color: white;
+    border: 3px solid #ffcce0;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(255, 65, 129, 0.5);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin: 15px auto 0;
+    max-width: 350px;
+}
+
+.date-button:hover {
+    background-color: #ff4181;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 107, 158, 0.6);
+}
+
+.date-button:active {
     transform: translateY(0);
 }
